@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.colorgame" version="0.0.3">
+
+    <name>ColorGame</name>
+
+    <description>
+        game with colors
+    </description>
+    <content src="colorgame.html" />
+    <author href="https://mikezindel.github.io" email="mikezindel@hotmail.com">
+       Mike Z    </author>
+    <!-- We'll include the Barcode plugin as an example -->
+    <preference name="phonegap-version" value="3.7.0" />
+    <plugin name="org.apache.cordova.geolocation" />
+    <plugin name="org.apache.cordova.device" />
+    <feature name="Not sure">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+</widget>

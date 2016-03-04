@@ -1,0 +1,14 @@
+#start{
+position:fixed;
+width:350px;
+height:350px;
+}
+h2{
+	text-align:center;
+}
+:disabled{
+	color:black;
+}
+#refresh{
+	float:right;
+}
