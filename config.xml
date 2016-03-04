@@ -11,8 +11,6 @@
        Mike Z    </author>
     <!-- We'll include the Barcode plugin as an example -->
     <preference name="phonegap-version" value="3.7.0" />
-    <plugin name="org.apache.cordova.geolocation" />
-    <plugin name="org.apache.cordova.device" />
     <feature name="Not sure">
         <param name="ios-package" value="CDVLocation" />
     </feature>
