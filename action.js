@@ -11,17 +11,17 @@ $(document).ready(function(){
 		$('#yellow').click(function(){
 			$("#yellow").prop('disabled', true);
 			$("#red").prop('disabled', false);
-			 $("#imgcolor").attr('src',"red.png");
+			 $("#imgcolor").attr('src',"Red.png");
 		});
 		$('#red').click(function(){
 			$("#red").prop('disabled', true);
 			$("#green").prop('disabled', false);
-			$("#imgcolor").attr('src',"green.png");
+			$("#imgcolor").attr('src',"Green.png");
 		});
 		$('#green').click(function(){
 			$("#green").prop('disabled', true);
 			$("#blue").prop('disabled', false);
-			$("#imgcolor").attr('src',"blue.png");
+			$("#imgcolor").attr('src',"Blue.png");
 		});
 		$('#blue').click(function(){
 			$("#blue").prop('disabled', true);
