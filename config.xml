@@ -6,7 +6,7 @@
     <description>
         game with colors
     </description>
-    <content src="colorgame.html" />
+    <content src="index.html" />
     <author href="https://mikezindel.github.io" email="mikezindel@hotmail.com">
        Mike Z    </author>
     <!-- We'll include the Barcode plugin as an example -->
