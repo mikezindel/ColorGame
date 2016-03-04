@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.colorgame" version="0.0.3">
-	<icon src="icon.png" width="67" height="57"/>
+	<icon src="icon.png" width="84" height="86"/>
     <name>ColorGame</name>
 
     <description>
