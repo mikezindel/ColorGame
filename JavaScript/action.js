@@ -11,26 +11,26 @@ $(document).ready(function(){
 		$('#yellow').click(function(){
 			$("#yellow").prop('disabled', true);
 			$("#red").prop('disabled', false);
-			 $("#imgcolor").attr('src',"Red.png");
+			 $("#imgcolor").attr('src',"../Images/Red.png");
 		});
 		$('#red').click(function(){
 			$("#red").prop('disabled', true);
 			$("#green").prop('disabled', false);
-			$("#imgcolor").attr('src',"Green.png");
+			$("#imgcolor").attr('src',"../Images/Green.png");
 		});
 		$('#green').click(function(){
 			$("#green").prop('disabled', true);
 			$("#blue").prop('disabled', false);
-			$("#imgcolor").attr('src',"Blue.png");
+			$("#imgcolor").attr('src',"../Images/Blue.png");
 		});
 		$('#blue').click(function(){
 			$("#blue").prop('disabled', true);
-			$("#imgcolor").attr('src',"Winner.png");
+			$("#imgcolor").attr('src',"../Images/Winner.png");
 		});
-		
+
 		$('#refresh').click(function() {
 		location.reload();
 		});
-		
+
 });
 
